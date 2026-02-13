@@ -103,10 +103,9 @@ document.addEventListener('DOMContentLoaded', () => {
         'intl_licensing_paths': 'science',
         'commerce-management': 'commerce',
         'social-science-humanities': 'humanities',
-        'islamic-studies': 'humanities',
-        'competitive-exams-science': 'science',
-        'competitive-exams-general': ['commerce', 'humanities'],
-        'education': 'humanities',
+        'islamic-studies': ['humanities', 'science', 'commerce'],
+        'various-competitive-exams-india': ['science', 'commerce', 'humanities'],
+        'education': ['humanities', 'science', 'commerce'],
         'short-term-career-programs': ['science', 'commerce', 'humanities', 'polytechnic', 'iti']
     };
 
