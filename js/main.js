@@ -89,11 +89,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const backBtn = document.getElementById('backBtn');
 
     const sslcOptions = [
-        { id: 'science', name: 'Science', icon: '🔬', desc: 'Engineering, Medicine, Pure Sciences' },
-        { id: 'commerce', name: 'Commerce', icon: '📊', desc: 'Business, Finance, CA, CS' },
-        { id: 'humanities', name: 'Humanities', icon: '🎨', desc: 'Arts, Law, Social Sciences' },
-        { id: 'polytechnic', name: 'Polytechnic', icon: '⚙️', desc: '3-Year Engineering Diploma' },
-        { id: 'iti', name: 'ITI', icon: '🛠️', desc: 'Industrial Training (Technical)' },
+        { id: 'science', name: 'Science', icon: '<i class="fa-solid fa-flask"></i>', desc: 'Engineering, Medicine, Pure Sciences' },
+        { id: 'commerce', name: 'Commerce', icon: '<i class="fa-solid fa-chart-line"></i>', desc: 'Business, Finance, CA, CS' },
+        { id: 'humanities', name: 'Humanities', icon: '<i class="fa-solid fa-palette"></i>', desc: 'Arts, Law, Social Sciences' },
+        { id: 'polytechnic', name: 'Polytechnic', icon: '<i class="fa-solid fa-cogs"></i>', desc: '3-Year Engineering Diploma' },
+        { id: 'iti', name: 'ITI', icon: '<i class="fa-solid fa-tools"></i>', desc: 'Industrial Training (Technical)' },
     ];
 
     const streamMapping = {

@@ -2,7 +2,7 @@ window.careerData = {
     domains: [
         {
             id: "pure-science",
-            icon: "🔬",
+            icon: '<i class="fa-solid fa-flask"></i>',
             name: "Pure Science",
             description: "Explore careers in fundamental scientific disciplines that form the basis of our understanding of the natural world.",
             subdomains: [
@@ -76,7 +76,7 @@ window.careerData = {
         },
         {
             id: "engineering-technology",
-            icon: "🔧",
+            icon: '<i class="fa-solid fa-wrench"></i>',
             name: "Engineering & Technology",
             description: "Curious about how things work? Good at Math & Science? Love solving problems & building things? Interested in innovation, machines, coding, or design? You are an engineer inside!",
             subdomains: [
@@ -183,7 +183,7 @@ window.careerData = {
         },
         {
             id: "medicine",
-            icon: "🏥",
+            icon: '<i class="fa-solid fa-hospital"></i>',
             name: "Medicine",
             description: "- Fascinated by the human body and health? Strong in Biology and Chemistry? Passionate about helping people and caring for others? Interested in healing, diagnosis, treatment, or healthcare technology? Have the patience and dedication required for long-term study and practice? Then a career in the Medical Field is for YOU!",
             subdomains: [
@@ -332,7 +332,7 @@ window.careerData = {
         },
         {
             id: "intl_licensing_paths",
-            icon: "🌏",
+            icon: '<i class="fa-solid fa-globe"></i>',
             name: "International Licensing Exams",
             description: "Planning to practice Medicine abroad? Explore the licensing pathways for USA, UK, Australia, and other countries.",
             subdomains: [
@@ -395,12 +395,13 @@ window.careerData = {
         },
         {
             id: "commerce-management",
-            icon: "💰",
+            icon: '<i class="fa-solid fa-coins"></i>',
             name: "Commerce & Management",
             description: "Do you have a knack for business? Good with numbers and money? Interested in how the economy works? Want to lead teams or start your own company? A career in Commerce & Management is waiting for you!",
             subdomains: [
                 {
                     id: "chartered-accountancy",
+                    icon: '<i class="fa-solid fa-calculator"></i>',
                     name: "Chartered Accountancy (CA)",
                     description: "A prestigious professional course regulated by ICAI, focusing on accounting, auditing, taxation, and financial management.",
                     careerOptions: ["Statutory Auditor", "Internal Auditor", "Tax Consultant", "Finance Manager", "CFO (Chief Financial Officer)", "Forensic Auditor"],
@@ -424,6 +425,7 @@ window.careerData = {
                 },
                 {
                     id: "company-secretary",
+                    icon: '<i class="fa-solid fa-file-signature"></i>',
                     name: "Company Secretary (CS)",
                     description: "A professional course regulated by ICSI, focusing on corporate governance, company law, and secretarial practice.",
                     careerOptions: ["Company Secretary", "Corporate Governance Officer", "Legal Advisor", "Compliance Officer", "Corporate Planner"],
@@ -515,7 +517,7 @@ window.careerData = {
         },
         {
             id: "social-science-humanities",
-            icon: "👥",
+            icon: '<i class="fa-solid fa-users"></i>',
             name: "Social Sciences & Humanities",
             description: "Curious about human behavior, society, and culture? Love reading, writing, or debating? Interested in history, politics, or helping communities? A career in Social Sciences & Humanities is for you!",
             subdomains: [
@@ -611,7 +613,7 @@ window.careerData = {
         },
         {
             id: "short-term-career-programs",
-            icon: "💼",
+            icon: '<i class="fa-solid fa-briefcase"></i>',
             name: "Short-Term Career Programs",
             description: "Want to start earning quickly? Interested in skill-based jobs? Looking for a career switch? These programs get you job-ready in 6-12 months!",
             subdomains: [
@@ -674,7 +676,7 @@ window.careerData = {
         },
         {
             id: "islamic-studies",
-            icon: "🕌",
+            icon: '<i class="fa-solid fa-mosque"></i>',
             name: "Islamic Studies",
             description: "Interested in combining traditional Islamic knowledge with modern education? Explore prestigious institutions and career paths in Islamic Studies.",
             subdomains: [
@@ -726,7 +728,7 @@ window.careerData = {
         },
         {
             id: "various-competitive-exams-india",
-            icon: "🏆",
+            icon: '<i class="fa-solid fa-trophy"></i>',
             name: "Competitive Exams (India)",
             description: "Gateway to prestigious careers in Government, Engineering, Medicine, and Law via entrance exams.",
             subdomains: [
@@ -844,7 +846,7 @@ window.careerData = {
         },
         {
             id: "education",
-            icon: "🎓",
+            icon: '<i class="fa-solid fa-graduation-cap"></i>',
             name: "Education & Teaching",
             description: "Passionate about shaping young minds? Interested in pedagogy and educational leadership? A career in Education is noble and rewarding.",
             subdomains: [
